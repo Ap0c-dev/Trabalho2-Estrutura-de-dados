@@ -1,3 +1,4 @@
+package Classes;
 
 public class Produto {
     private int codigo;
@@ -47,12 +48,9 @@ public class Produto {
 
     @Override
     public String toString() {
-        return "{" +
-            " codigo='" + getCodigo() + "'" +
-            ", nome='" + getNome() + "'" +
-            ", preco='" + getPreco() + "'" +
-            ", qtd='" + getQtd() + "'" +
-            "}";
+        return 
+             " Produto: " + getCodigo() + " " + getNome() + " " + "R$" + getPreco();
+            
     }
 
 }

@@ -17,8 +17,8 @@ public class Exercicio3 {
         listaInteiros.add(4);
         listaInteiros.add(3);
                 
-        System.out.println("Elementos completos: " + listaInteiros.toString());
-        System.out.println("Elementos não repetidos: " + removerElementosRepetidos(listaInteiros));
+        System.out.println("Lista Completa: " + listaInteiros.toString());
+        System.out.println("Lista sem repetição: " + removerElementosRepetidos(listaInteiros));
     }
 
     public static Set<Integer> removerElementosRepetidos(ArrayList<Integer> listaInteiros){
